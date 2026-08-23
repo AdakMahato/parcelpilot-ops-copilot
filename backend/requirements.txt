@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+chromadb
+sentence-transformers
+openpyxl
+pandas
+PyPDF2
+python-multipart
+python-dotenv
+pytest
+google-genai>=2.19.0

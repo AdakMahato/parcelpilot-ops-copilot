@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Backend local/runtime files
+backend/*.db
+backend/*.pid
+backend/gemini_error.txt
+backend/chroma_db/
+
+# Secrets / local environment
+env_vars.txt
+frontend/.env
+frontend/.env.local
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+venv/
+
+# Local secrets
+env_vars.txt
+*.env
+
+# Runtime data
+backend/*.db
+backend/*.pid
+backend/chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local backend logs
+backend/gemini_error.txt
